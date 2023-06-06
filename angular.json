@@ -17,8 +17,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/tech-day-demo-app",
-            "index": "src/index.html",
+            "outputPath": "docs",
+            "index": "src/GitPages/index.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
