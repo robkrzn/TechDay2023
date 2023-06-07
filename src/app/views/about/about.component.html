@@ -36,6 +36,7 @@
 
   <div class="center">
     <button class="login" *ngIf="!isLogin">Prihlasiť sa</button>
-    <button class="logout" *ngIf="isLogin">Odhlásiť sa</button>
+    <button class="logout" *ngIf="!isLogin">Odhlásiť sa</button>
+    <button class="login" (click)="redirectToMSTest()">MS autentifikator test</button>
   </div>
 </article>

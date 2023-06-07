@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'iTunesApp-ng-ts'`, () => {
+  it(`should have as title 'TechDayDemo-ng-ts'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('iTunesApp-ng-ts');
+    expect(app.title).toEqual('TechDayDemo-ng-ts');
   });
 
   it('should render title', () => {
