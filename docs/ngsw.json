@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1686132836135,
+  "timestamp": 1686134166735,
   "index": "/TechDay2023/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/TechDay2023/favicon.ico",
         "/TechDay2023/index.html",
-        "/TechDay2023/main.f4507a9c6b466659.js",
+        "/TechDay2023/main.3426b5b0805839bc.js",
         "/TechDay2023/manifest.webmanifest",
         "/TechDay2023/polyfills.bf2f218381d921c9.js",
         "/TechDay2023/runtime.c806cf6c121bb386.js",
@@ -64,8 +64,8 @@
     "/TechDay2023/assets/scss/main.scss": "62d83cd5df5effe0a7398715796376161ee2aee5",
     "/TechDay2023/assets/search.svg": "93a2056cf2c5f6227ef94cd7dd1f20bb7d07f3a9",
     "/TechDay2023/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/TechDay2023/index.html": "7d178db792a917ee24b0dfff9402ca9d8ea144c1",
-    "/TechDay2023/main.f4507a9c6b466659.js": "1a9e15372fc8c989983f1219752d73fc280a16e6",
+    "/TechDay2023/index.html": "6e9a2216a2bf8291821dbc26c7241871a3352ce0",
+    "/TechDay2023/main.3426b5b0805839bc.js": "c8ccd529d0554ade4119138dc7b6adafd8e3bec7",
     "/TechDay2023/manifest.webmanifest": "e26ca8fba9c9b6fff419ada7bfc5468dd1f4f2a6",
     "/TechDay2023/polyfills.bf2f218381d921c9.js": "d21150cd95cb36c3a0d4981a308897415dc6a89f",
     "/TechDay2023/runtime.c806cf6c121bb386.js": "4f1ce5c804d909b60792d581ee48b4eb466e94be",
