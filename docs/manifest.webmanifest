@@ -1,7 +1,7 @@
 {
-  "name": "TechDayDemoApp",
-  "short_name": "TechDayDemoApp",
-  "theme_color": "#1976d2",
+  "name": "TechDay 2023 Demo App",
+  "short_name": "TechDay Demo",
+  "theme_color": "#FFFFFF",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "./",
