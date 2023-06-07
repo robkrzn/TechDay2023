@@ -1,0 +1,93 @@
+{
+  "configVersion": 1,
+  "timestamp": 1686121254153,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.122074235f07c098.js",
+        "/manifest.webmanifest",
+        "/polyfills.bf2f218381d921c9.js",
+        "/runtime.c806cf6c121bb386.js",
+        "/styles.51b71a6a7270f8fe.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/NextITlogo.svg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo.svg",
+        "/assets/scss/_fonts.scss",
+        "/assets/scss/_variables.scss",
+        "/assets/scss/main.scss",
+        "/assets/search.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/NextITlogo.svg": "db120bb6b4c7871aa2ff89083a777593a1c24f4d",
+    "/assets/icons/icon-128x128.png": "4d3dc3b5d50bac3fdd069c515ad74730b73b7fff",
+    "/assets/icons/icon-144x144.png": "def5c36fe188e0e6fd0626743c7a59a882e6166f",
+    "/assets/icons/icon-152x152.png": "93cdb579c494f21416a1d20302e574abf64cfd91",
+    "/assets/icons/icon-192x192.png": "80483d6e6597a4390fc8fe45f72905db396385d5",
+    "/assets/icons/icon-384x384.png": "48958661e8dfb37db9c17651b52794fdac029fe2",
+    "/assets/icons/icon-512x512.png": "654e198f41908626021e772eeeea652064f949af",
+    "/assets/icons/icon-72x72.png": "b18070ee8628e342c4597af1217c4af36a728cfd",
+    "/assets/icons/icon-96x96.png": "009e94f4df55f3242ff005534468012730caf04a",
+    "/assets/logo.svg": "e43a6aa17a128037b8562069b398163e13e2930c",
+    "/assets/scss/_fonts.scss": "4356347c6e8095fb097b2b2fd3af86a7a915968a",
+    "/assets/scss/_variables.scss": "55da7bd35b512b598f34b7e4f409b7d7fe4884dd",
+    "/assets/scss/main.scss": "85ce6778f1ba2b9af4f8a607ff38b460723bdbcb",
+    "/assets/search.svg": "93a2056cf2c5f6227ef94cd7dd1f20bb7d07f3a9",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "812d88a7f3dfe25c037773fd8c82aa8de6ff4137",
+    "/main.122074235f07c098.js": "dc35d7b4c88ff765ed35bcba8e5c7630359ceac0",
+    "/manifest.webmanifest": "c5f59aaa2005a318896d00537117c32f602313ac",
+    "/polyfills.bf2f218381d921c9.js": "d21150cd95cb36c3a0d4981a308897415dc6a89f",
+    "/runtime.c806cf6c121bb386.js": "4f1ce5c804d909b60792d581ee48b4eb466e94be",
+    "/styles.51b71a6a7270f8fe.css": "8a43713fb435bb06fb10120d6ab9d8ddf58498b7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

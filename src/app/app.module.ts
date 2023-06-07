@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser'
-import { NgModule } from '@angular/core'
+import { NgModule, isDevMode } from '@angular/core'
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations'
 
 import { HttpClientModule } from '@angular/common/http'
@@ -17,7 +17,8 @@ import { TunesSearchFormComponent } from './components/tunes/tunes-search-form/t
 import { TunesListComponent } from './components/tunes/tunes-list/tunes-list.component'
 import { TunesSongComponent } from './components/tunes/tunes-song/tunes-song.component'
 import { SongifyPipe } from './pipes/songify.pipe'
-import { ShortenPipe } from './pipes/shorten.pipe'
+import { ShortenPipe } from './pipes/shorten.pipe';
+import { ServiceWorkerModule } from '@angular/service-worker'
 
 @NgModule({
 	declarations: [
@@ -36,7 +37,13 @@ import { ShortenPipe } from './pipes/shorten.pipe'
 		BrowserModule,
 		AppRoutingModule,
 		HttpClientModule,
-		BrowserAnimationsModule
+		BrowserAnimationsModule,
+  ServiceWorkerModule.register('ngsw-worker.js', {
+    enabled: !isDevMode(),
+    // Register the ServiceWorker as soon as the application is stable
+    // or after 30 seconds (whichever comes first).
+    registrationStrategy: 'registerWhenStable:30000'
+  })
 	],
 	providers: [],
 	bootstrap: [AppComponent]
